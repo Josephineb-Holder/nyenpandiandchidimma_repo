@@ -1,0 +1,135 @@
+#nav-bar{
+    display: flex;
+}
+
+#nav-bar>ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin-left: 10rem;
+}
+#nav-bar>ul>li>a{
+    text-decoration: none;
+    color: black;
+    margin: 1.5rem;
+  
+}
+
+#header-img{
+    width: 55%;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    display: flex;
+  flex-direction: column;
+}
+
+#form>input{
+    height: 1.5rem;
+}
+
+#submit{
+    margin-top: 1.2rem;
+    position: relative;
+    left: 27%;
+    right: 27%;
+    height: 1.8rem;
+    width: 50%;
+    border: none;
+    background-color: #f1c40f;
+}
+
+#icon-div{
+    display: flex;
+    flex-direction: row;
+}
+
+#icon-text{
+    position: relative;
+    bottom: 1rem;
+    margin-left: 5rem;
+}
+i{
+    color: darkorange;
+}
+
+#vid-div{
+    margin-left: 11rem;
+}
+
+#card{
+    display: flex;
+    flex-direction: row;
+}
+
+#single-card{
+    border: 1px solid black;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+}
+
+h4{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+#card-text{
+    text-align: center;
+}
+
+.card-btn{
+    background-color: #f1c40f;
+    margin-top: 2rem;
+   border: none;
+   padding: 0.5rem;
+   width: 35%;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    width: 65%;
+    margin: 30px 0px 0px;
+}
+
+footer>ul,.footer-p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin-left: 10rem;
+}
+
+footer>ul>li>a{
+    text-decoration: none;
+    color: white;
+    margin: 1.5rem;
+  
+}
+
+@media only screen and (max-width: 70rem){
+
+    #vid-div{
+        margin-left: 5rem;
+    }
+    
+    #card{
+        margin-left: 10rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
